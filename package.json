@@ -1,0 +1,24 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strizh108/html-css-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strizh108/html-css-js/issues"
+  },
+  "homepage": "https://github.com/Strizh108/html-css-js#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.31.8"
+  }
+}
