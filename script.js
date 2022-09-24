@@ -1,6 +1,130 @@
-"use strict";
+// "use strict";
 
-let i = 0; while (i <= 3) { console.log(i); i++; }
+// const details = {
+//   name: 'John',
+// };
+
+// function getMessage(message) {
+//   return `${message} ${this.name}`;
+// }
+// console.log(getMessage.apply(details, ['Hello']));
+//Hello John
+
+
+// 'use strict'
+// function getThis() {
+//   return this;
+// }
+// console.log(getThis());
+//undefined in strict mode
+//window in non-strict mode
+
+
+
+// let name = "john";
+// function printName() {
+//   console.log(name);
+// }
+// setTimeout(() => {
+//   let name = 'Peter';
+//   printName();
+// }, 1000);
+// john
+
+
+// printMessage();
+// function printMessage() {
+//   console.log('Hello');
+// }
+// Hello
+
+
+// for (var i = 0; i < 10; i++) {
+//   console.log('r');
+// }
+// console.log(i);
+// 10
+
+
+// function foo(a, b) {
+//   return a * b;
+// }
+// const bar = foo.bind(null, 2);
+// bar(2);
+// 4
+
+
+// function foo() {
+//   return { bar: 1 };
+// }
+// console.log(typeof foo().bar);
+//number
+
+
+// "use strict";
+// const details = {
+//   message: 'Hello',
+// };
+// function getMessage() {
+//   return this.message;
+// }
+// console.log(getMessage.call(details));
+//Hello
+
+
+// for (var i = 0; i < 3; i++) {
+//   setTimeout(function () {
+//     console.log(i)
+//   }, 1000);
+// }
+// 3 3 3
+
+
+// (
+//   function (a) {
+//     arguments[0] = 10;
+//     return a;
+//   }
+// )(5);
+//10
+
+
+// function foo() { console.log(this); }
+// foo.call(null);
+// Window
+
+
+// const foo = bar();
+// const number = 2;
+// function bar() { return number; }
+// error
+
+
+// for (let i = 0; i < 3; i++) {
+//   setTimeout(function () {
+//     console.log(i)
+//   }, 1000);
+// }
+// 0 1 2
+
+
+// var a = 1, b = function a(x) { x && a(--x); };
+// console.log(a);
+// 1
+
+
+// console.log(message);
+// let meassage = 'Hello';
+// error
+
+
+// let f = function g() { return 23; }
+// console.log(typeof g());
+// error
+
+
+
+
 
 //Codewars1-2022Q3
 //
